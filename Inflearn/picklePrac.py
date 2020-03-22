@@ -15,4 +15,4 @@ profile_file.close()
 profile_file = open("profile.pickle", "rb")
 profile = pickle.load(profile_file) # file에 있는 정보를 profile에 저장
 print(profile)
-profile.close()
+profile_file.close()
